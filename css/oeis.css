@@ -1,0 +1,41 @@
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+#dashboard {
+	width: 320px;
+	border: 1px solid black;
+	text-align: center;
+}
+#sieve {
+	font: 10px sans-serif;
+	text-align: center;
+}
+#sieve {
+	width: 100px;
+	display: grid;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+	grid-gap: 4px;
+}
+#sieve .dark {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;	
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 2px;
+	background-color: black;
+	color: white;
+}
+#sieve .light {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;	
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 2px;
+	background-color: white;
+	color: black;
+}

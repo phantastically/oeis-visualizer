@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "Abyssinica SIL-Regular";
+	src: url(../fonts/AbyssinicaSIL-Regular.ttf) format("truetype");
+}
+body {
+	font-family: "Abyssinica SIL-Regular";
+	background-color: #d0d0d0;
+}
